@@ -24,7 +24,7 @@
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
 
-            <div class="px-64 min-w-full mx-auto">
+            <div class="px-10 md:px-64 min-w-full mx-auto">
                 <form action="/fetch" method="post">
                     @csrf
                     <div class="flex items-center flex-col gap-3 text-white">

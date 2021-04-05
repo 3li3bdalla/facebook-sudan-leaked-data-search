@@ -14,10 +14,10 @@
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
 
-            <div class="px-64 min-w-full mx-auto">
+            <div class="px-10 md:px-64 min-w-full mx-auto">
 
                 @if(count($users) == 0 ) 
-<h1>No Data Found</h1>
+                        <h1 class="text-center font-bold text-green-500 text-2xl">No Data Found</h1>
                     @endif
                 <ul class="px-0 min-w-screen">
                     
